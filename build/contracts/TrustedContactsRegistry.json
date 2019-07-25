@@ -1,0 +1,104 @@
+{
+  "contractName": "TrustedContactsRegistry",
+  "abi": [],
+  "metadata": "{\"compiler\":{\"version\":\"0.5.8+commit.23d335f2\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/mnt/c/dev/ssi-poc/ssi-smart-contracts/contracts/TrustedContactsRegistry.sol\":\"TrustedContactsRegistry\"},\"evmVersion\":\"petersburg\",\"libraries\":{},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/mnt/c/dev/ssi-poc/ssi-smart-contracts/contracts/TrustedContactsRegistry.sol\":{\"keccak256\":\"0x2bf4278c02cd7f10e200b1df36247de9c4fefbf817ecf51eb2244f14b6030758\",\"urls\":[\"bzzr://39075d3275d9a71fe935019026ea6210596f14ab267dd2c19576ba2ceb7c7ca1\"]}},\"version\":1}",
+  "bytecode": "0x6080604052348015600f57600080fd5b50603580601d6000396000f3fe6080604052600080fdfea165627a7a723058206cd7b07d53ec3a76db66a7fa976dda44c9c4cc70bc60a7afbfab01822ba3b4d00029",
+  "deployedBytecode": "0x6080604052600080fdfea165627a7a723058206cd7b07d53ec3a76db66a7fa976dda44c9c4cc70bc60a7afbfab01822ba3b4d00029",
+  "sourceMap": "25:388:6:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;25:388:6;;;;;;;",
+  "deployedSourceMap": "25:388:6:-;;;;;",
+  "source": "pragma solidity ^0.5.0;\n\ncontract TrustedContactsRegistry {\n\n\t// event addedDID();\n\t// event updatedDID();\n\t// event removedDID();\n\n\t// mapping (address => address) private tclList;\n\n //  constructor() public {\n //  }\n\n //  function addDid () returns(bool res) internal {\n\n //  }\n\n //  function removeDID () returns(bool res) internal {\n\n //  }\n\n //  function updateDID () returns(bool res) internal {\n\n //  }\n\n\n}\n",
+  "sourcePath": "/mnt/c/dev/ssi-poc/ssi-smart-contracts/contracts/TrustedContactsRegistry.sol",
+  "ast": {
+    "absolutePath": "/mnt/c/dev/ssi-poc/ssi-smart-contracts/contracts/TrustedContactsRegistry.sol",
+    "exportedSymbols": {
+      "TrustedContactsRegistry": [
+        708
+      ]
+    },
+    "id": 709,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 707,
+        "literals": [
+          "solidity",
+          "^",
+          "0.5",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:23:6"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 708,
+        "linearizedBaseContracts": [
+          708
+        ],
+        "name": "TrustedContactsRegistry",
+        "nodeType": "ContractDefinition",
+        "nodes": [],
+        "scope": 709,
+        "src": "25:388:6"
+      }
+    ],
+    "src": "0:414:6"
+  },
+  "legacyAST": {
+    "absolutePath": "/mnt/c/dev/ssi-poc/ssi-smart-contracts/contracts/TrustedContactsRegistry.sol",
+    "exportedSymbols": {
+      "TrustedContactsRegistry": [
+        708
+      ]
+    },
+    "id": 709,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 707,
+        "literals": [
+          "solidity",
+          "^",
+          "0.5",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:23:6"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 708,
+        "linearizedBaseContracts": [
+          708
+        ],
+        "name": "TrustedContactsRegistry",
+        "nodeType": "ContractDefinition",
+        "nodes": [],
+        "scope": 709,
+        "src": "25:388:6"
+      }
+    ],
+    "src": "0:414:6"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.5.8+commit.23d335f2.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.0.11",
+  "updatedAt": "2019-07-16T09:54:29.966Z",
+  "devdoc": {
+    "methods": {}
+  },
+  "userdoc": {
+    "methods": {}
+  }
+}
